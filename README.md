@@ -46,12 +46,12 @@ Put the template file here:
 
 Configure git to use the template file by running:
 
-     git config --global commit.template ~/.git_commit_template
+     git config --global commit.template ~/.git_commit_template.txt
 
 Add the template file to our ~/.gitconfig file:
 
     [commit]
-      template = ~/.git_commit_template
+      template = ~/.git_commit_template.txt
 
 If you prefer other file locations or ways of working,
 you can freely adjust the usage as you like.
@@ -60,7 +60,7 @@ you can freely adjust the usage as you like.
 ## Tracking ##
 
 * Package: git_commit_message
-* Version: 6.0.1
-* Updated: 2018-08-27T21:33:51Z
+* Version: 6.0.2
+* Updated: 2018-08-27T22:15:57Z
 * Licence: GNU General Public License (GPL-3.0)
 * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)

@@ -1,4 +1,4 @@
-You# Git commit template -- see help below -- ~/.git_commmit_template.txt
+Add your title here
 
 # See links to relevant web pages, issue trackers, blog articles, etc.
 See: https://example.com/
@@ -60,12 +60,12 @@ Tags:
 #
 # Configure git to use the template file by running:
 #
-#     git config --global commit.template ~/.git_commit_template
+#     git config --global commit.template ~/.git_commit_template.txt
 #
 # Add the template file to the ~/.gitconfig file:
 #
 #     [commit]
-#       template = ~/.gitmessage
+#       template = ~/.git_commit_template.txt
 #
 # If you prefer other file locations or ways of working,
 # you can freely adjust the usage as you like.
@@ -74,7 +74,7 @@ Tags:
 # ## Tracking ##
 #
 # * Package: git_commit_message.txt
-# * Version: 6.0.0
-# * Updated: 2018-06-27T03:15:23Z
+# * Version: 6.0.2
+# * Updated: 2018-08-27T22:15:57Z
 # * Licence: GNU General Public License (GPL-3.0)
 # * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
