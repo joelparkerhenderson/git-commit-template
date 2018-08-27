@@ -1,4 +1,4 @@
-# Git commit template -- see help below -- ~/.git_commmit_template.txt
+You# Git commit template -- see help below -- ~/.git_commmit_template.txt
 
 # See links to relevant web pages, issue trackers, blog articles, etc.
 See: https://example.com/
@@ -52,7 +52,7 @@ Tags:
 # https://github.com/joelparkerhenderson/git_commit_message
 #
 #
-# ## Uaage ##
+# ## Usage ##
 #
 # Put the template file here:
 #
