@@ -1,21 +1,20 @@
 Add your title here
 
 # See links to relevant web pages, issue trackers, blog articles, etc.
-See: https://example.com/
-See: [Example Page](https://example.com/)
+# See: https://example.com/
+# See: [Example Page](https://example.com/)
 
 # List all co-authors, so version control systems can connect teams.
-Co-authored-by: Name <name@example.com>
-Co-authored-by: Name <name@example.com>
+# Co-authored-by: Name <name@example.com>
 
 # Why is this change happening, e.g. goals, use cases, stories, etc.?
-Why:
+Why: 
 
 # How is this change happening, e.g. implementations, algorithms, etc.?
-How:
+How: 
 
 # Tags suitable for searching, such as hashtags, keywords, etc.
-Tags:
+Tags: 
 
 # ## Help ##
 #
@@ -50,25 +49,6 @@ Tags:
 #
 # For more information about git commit ideas and help:
 # https://github.com/joelparkerhenderson/git_commit_message
-#
-#
-# ## Usage ##
-#
-# Put the template file here:
-#
-#     ~/.git_commit_template.txt
-#
-# Configure git to use the template file by running:
-#
-#     git config --global commit.template ~/.git_commit_template.txt
-#
-# Add the template file to the ~/.gitconfig file:
-#
-#     [commit]
-#       template = ~/.git_commit_template.txt
-#
-# If you prefer other file locations or ways of working,
-# you can freely adjust the usage as you like.
 #
 #
 # ## Tracking ##
