@@ -14,17 +14,7 @@ see our project [GitAlias](https://github.com/gitalias/gitalias).
 ```sh
 Add your title here
 
-# See links to relevant web pages, issue trackers, blog articles, etc.
-See: https://example.com/
-See: [Example Page](https://example.com/)
-
-# List any authors, so version control systems can connect teams.
-Co-authored-by: Name <name@example.com>
-Co-authored-by: Name <name@example.com>
-
-# List any sponsors, so contact relation systems can connect groups.
-Sponsored-by: Name <name@example.com>
-Sponsored-by: Name <name@example.com>
+# First step, see the "Trailers" section at the end of this template.
 
 # Why is this change happening, e.g. goals, use cases, stories, etc.?
 Why:
@@ -61,13 +51,39 @@ Tags:
 #   * Use 72 characters maximum per line for typical word wrap text.
 #
 #
+# ## Trailers ##
+#
+# Trailers suitable for tracking and also for `git interpret-trailers`.
+#
+# Example of "See:" trailers that means "see this additional information"
+# and links to relevant web pages, issue trackers, blog posts, etc.:
+#
+#     See: https://example.com/
+#     See: [Example Page](https://example.com/)
+#
+# Example of "Co-authored-by:" trailers that list each author's name
+# and their preferred commit message email address or contact URL:
+#
+#     Co-authored-by: Alice Adams <alice@example.com>
+#     Co-authored-by: Bob Brown <https://bob.example.com>
+#
+# Example of "Sponsored-by:" trailers that list each sponsor's name,
+# which could be a person's or organization's, and contact email or URL:
+#
+#     Sponsored-by: Adam Anderson <adam@example.com>
+#     Sponsored-by: Bravo Organization <https://bravo.example.com>
+#
+# The git tools require trailers to be last in a commit message,
+# and must be one trailer per line, and with no extra lines between.
+#
+#
 # ## About ##
 #
 # This is our team's starting point for our git commit messages.
 # You can edit this template as you like, to customize it.
 #
 # For more information about git commit ideas and help:
-# https://github.com/joelparkerhenderson/git_commit_message
+# https://github.com/joelparkerhenderson/git-commit-message
 #
 #
 # ## Usage ##
@@ -92,26 +108,17 @@ Tags:
 # ## Tracking ##
 #
 # * Package: git-commit-template
-# * Version: 7.0.0
-# * Updated: 2021-06-16T20:32:18Z
+* * Version: 7.0.0
+* * Updated: 2021-06-16T20:32:18Z
 # * Licence: GNU General Public License (GPL-2.0-only)
 # * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
+
+### GIT TRAILERS -- THESE MUST BE LAST IN THE COMMIT MESSAGE ###
+
+See: https://example.com/
+See: [Example Page](https://example.com/)
+Co-authored-by: Name <name@example.com>
+Co-authored-by: Name <name@example.com>
+Sponsored-by: Name <name@example.com>
+Sponsored-by: Name <name@example.com>
 ```
-
-## Usage
-
-Put the template file here:
-
-     ~/.git-commit-template.txt
-
-Configure git to use the template file by running:
-
-     git config --global commit.template ~/.git-commit-template.txt
-
-Add the template file to our ~/.gitconfig file:
-
-    [commit]
-      template = ~/.git-commit-template.txt
-
-If you prefer other file locations or ways of working,
-you can freely adjust the usage as you like.
