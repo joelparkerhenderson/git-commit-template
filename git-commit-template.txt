@@ -94,8 +94,8 @@ Tags:
 # ## Tracking ##
 #
 # * Package: git-commit-template
-* * Version: 7.0.0
-* * Updated: 2021-06-16T20:32:18Z
+# * Version: 7.0.0
+# * Updated: 2021-06-16T20:32:18Z
 # * Licence: GNU General Public License (GPL-2.0-only)
 # * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
 

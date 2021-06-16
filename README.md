@@ -8,6 +8,7 @@ see our repo [How to write a great git commit message](https://github.com/joelpa
 If you want to improve your git speed and capabilities,
 see our project [GitAlias](https://github.com/gitalias/gitalias).
 
+The template is below and is also at this link: [git-commit-template.txt](git-commit-template.txt)
 
 ## Template
 
@@ -108,8 +109,8 @@ Tags:
 # ## Tracking ##
 #
 # * Package: git-commit-template
-* * Version: 7.0.0
-* * Updated: 2021-06-16T20:32:18Z
+# * Version: 7.0.0
+# * Updated: 2021-06-16T20:32:18Z
 # * Licence: GNU General Public License (GPL-2.0-only)
 # * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
 
