@@ -41,11 +41,11 @@ Tags:
 #
 # Trailers suitable for tracking and also for `git interpret-trailers`.
 #
-# Example of "See:" trailers that means "see this additional information"
+# Example of "See:" trailers that mean "see this additional information"
 # and links to relevant web pages, issue trackers, blog posts, etc.:
 #
 #     See: https://example.com/
-#     See: [Example Page](https://example.com/)
+#     See: Example Page <https://example.com/>
 #
 # Example of "Co-authored-by:" trailers that list each author's name
 # and their preferred commit message email address or contact URL:
