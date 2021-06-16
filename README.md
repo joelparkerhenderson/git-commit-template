@@ -60,7 +60,7 @@ Tags:
 # and links to relevant web pages, issue trackers, blog posts, etc.:
 #
 #     See: https://example.com/
-#     See: Example Page <https://example.com/>
+#     See: Issue #123 <https://example.com/issue/123>
 #
 # Example of "Co-authored-by:" trailers that list each author's name
 # and their preferred commit message email address or contact URL:
@@ -116,8 +116,8 @@ Tags:
 
 ### GIT TRAILERS -- THESE MUST BE LAST IN THE COMMIT MESSAGE ###
 
-See: https://example.com/
-See: [Example Page](https://example.com/)
+See: Description <https://example.com/...>
+See: Description <https://example.com/...>
 Co-authored-by: Name <name@example.com>
 Co-authored-by: Name <name@example.com>
 Sponsored-by: Name <name@example.com>
