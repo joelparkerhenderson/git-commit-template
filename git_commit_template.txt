@@ -8,6 +8,10 @@ See: [Example Page](https://example.com/)
 Co-authored-by: Name <name@example.com>
 Co-authored-by: Name <name@example.com>
 
+# List any sponsors, so contact relation systems can connect teams.
+Sponsored-by: Name <name@example.com>
+Sponsored-by: Name <name@example.com>
+
 # Why is this change happening, e.g. goals, use cases, stories, etc.?
 Why:
 
@@ -56,16 +60,16 @@ Tags:
 #
 # Put the template file here:
 #
-#     ~/.git_commit_template.txt
+#     ~/.git-commit-template.txt
 #
 # Configure git to use the template file by running:
 #
-#     git config --global commit.template ~/.git_commit_template.txt
+#     git config --global commit.template ~/.git-commit-template.txt
 #
 # Add the template file to the ~/.gitconfig file:
 #
 #     [commit]
-#       template = ~/.git_commit_template.txt
+#       template = ~/.git-commit-template.txt
 #
 # If you prefer other file locations or ways of working,
 # you can freely adjust the usage as you like.
@@ -73,8 +77,8 @@ Tags:
 #
 # ## Tracking ##
 #
-# * Package: git_commit_message.txt
-# * Version: 6.0.2
-# * Updated: 2018-08-27T22:15:57Z
-# * Licence: GNU General Public License (GPL-3.0)
+# * Package: git-commit-template
+* * Version: 7.0.0
+* * Updated: 2021-06-16T20:32:18Z
+# * Licence: GNU General Public License (GPL-2.0-only)
 # * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
