@@ -1,5 +1,7 @@
 # Git commit template
 
+<img src="README.png" alt="DataGrip + PostgresSQL" style="width: 100%;"/>
+
 Git commit template to improve your project's commit messages.
 
 If you want to learn why we use this kind of template,
