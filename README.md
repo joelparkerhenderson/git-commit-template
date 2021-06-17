@@ -17,8 +17,6 @@ The template is below and is also at this link: [git-commit-template.txt](git-co
 ```sh
 Add your title here
 
-# First step, see the "Trailers" section at the end of this template.
-
 # Why is this change happening, e.g. goals, use cases, stories, etc.?
 Why:
 
@@ -56,7 +54,7 @@ Tags:
 #
 # ## Trailers ##
 #
-# Trailers suitable for tracking and also for `git interpret-trailers`.
+# Trailers are good for tracking and also for `git interpret-trailers`.
 #
 # Example of "See:" trailers that mean "see this additional information"
 # and links to relevant web pages, issue trackers, blog posts, etc.:
@@ -64,11 +62,21 @@ Tags:
 #     See: https://example.com/
 #     See: Issue #123 <https://example.com/issue/123>
 #
+# We like to use the "See:" trailers to link to issue trackers (e.g. Jira, 
+# Asana, Basecamp, Trello), document files and folders (e.g. Box, Dropbox),
+# UI/UX designs (e.g. Figma, Lucidchart), reference pages (e.g. Wikipedia,
+# internet RFCs, IEEE standards), and web posts (e.g. StackOverflow, HN).
+#
 # Example of "Co-authored-by:" trailers that list each author's name
 # and their preferred commit message email address or contact URL:
 #
 #     Co-authored-by: Alice Adams <alice@example.com>
 #     Co-authored-by: Bob Brown <https://bob.example.com>
+#
+# We like to use the "Co-authored-by:" trailers when we pair program,
+# triple program, and group program. These are parsed automatically by
+# some version control services (e.g. GitHub, GitLab) and will link
+# to the authors' accounts and show up on the authors' commit history.
 #
 # Example of "Sponsored-by:" trailers that list each sponsor's name,
 # which could be a person's or organization's, and contact email or URL:
