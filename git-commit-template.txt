@@ -127,6 +127,15 @@ Tags:
 # you can freely adjust the usage as you like.
 #
 #
+# ## More ideas ##
+#
+# Some teams like to add a git commit message verification processes,
+# such as a git pre-commit hook that runs a linter on the message text.
+# 
+# In our experience, this can be helpful especially if the linter can
+# provide advice that explains how to make the message better.
+#
+#
 # ## Tracking ##
 #
 # * Package: git-commit-template
