@@ -15,18 +15,44 @@ The template is below and is also at this link: [git-commit-template.txt](git-co
 ## Template
 
 ```sh
+##################################################
+# Write a title summarizing what this commit does.
+# Start with an uppercase imperative verb, such as
+# Add, Drop, Fix, Refactor, Bump; see ideas below.
+# Think of your title as akin to an email subject,
+# so you don't need to end with a sentence period.
+# Use 50 char maximum, which is this line's width.
+##################################################
 Add your title here
 
-# Why is this change happening, e.g. goals, use cases, stories, etc.?
+########################################################################
+# Why is this change happening?
+# Describe the purpose, such as a goal, or use case, or user story, etc.
+# Use 72 char maximum, which is this line's width; multiple lines are OK.
+########################################################################
 Why:
 
-# How is this change happening, e.g. implementations, algorithms, etc.?
+########################################################################
+# How is this change happening?
+# Describe any relevant algorithms, protocols, implementation spec, etc.
+# Use 72 chars maximum, which is this line width; multiple lines are OK.
+########################################################################
 How:
 
-# Tags suitable for searching, such as hashtags, keywords, etc.
+########################################################################
+# Add any tags you want, such as search text, hashtags, keywords, codes.
+########################################################################
 Tags:
 
+########################################################################
+#
 # ## Help ##
+#
+# This git commit template is available at:
+# https://github.com/joelparkerhenderson/git-commit-template
+#
+# How to write a good git commit message:
+# https://github.com/joelparkerhenderson/git-commit-message
 #
 # Subject line imperative uppercase verbs:
 #
@@ -44,17 +70,21 @@ Tags:
 #   Rephrase = A change that MUST be just textual, e.g. edit a comment, doc, etc.
 #
 # For the subject line:
+#
 #   * Use 50 characters maximum.
+#
 #   * Do not use a sentence-ending period.
 #
 # For the body text:
+#
 #   * Use as many lines as you like.
+#
 #   * Use 72 characters maximum per line for typical word wrap text.
 #
 #
 # ## Trailers ##
 #
-# Trailers are good for tracking and also for `git interpret-trailers`.
+# Trailers suitable for tracking and also for `git interpret-trailers`.
 #
 # Example of "See:" trailers that mean "see this additional information"
 # and links to relevant web pages, issue trackers, blog posts, etc.:
@@ -116,20 +146,42 @@ Tags:
 # you can freely adjust the usage as you like.
 #
 #
+# ## More ideas ##
+#
+# Some teams like to add a git commit message verification processes,
+# such as a git pre-commit hook that runs a linter on the message text.
+# 
+# In our experience, this can be helpful especially if the linter can
+# provide advice that explains how to make the message better.
+#
+#
 # ## Tracking ##
 #
 # * Package: git-commit-template
-# * Version: 7.0.0
-# * Updated: 2021-06-16T20:32:18Z
-# * Licence: GNU General Public License (GPL-2.0-only)
+# * Version: 7.1.0
+# * Updated: 2022-01-13T17:15:21Z
+# * Licence: GPL-2.0-only or contact us for custom license.
 # * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
+#
+########################################################################
 
 ### GIT TRAILERS -- THESE MUST BE LAST IN THE COMMIT MESSAGE ###
 
+# Git trailers are optional. Use them if you want, how you want.
+# The trailers below are provided as examples that you can customize.
+
+# For example, you can add any relevant links to a blog post, or graphic
+# design images, or industry publications, specifications, tickets, etc.
 See: Description <https://example.com/...>
 See: Description <https://example.com/...>
+
+# If the commit is written by multiple people, then use the git trailers
+# to thank each person as a co-author; various git tools can track this.
 Co-authored-by: Name <name@example.com>
 Co-authored-by: Name <name@example.com>
+
+# If the commit is sponsored by a person or company, then add them here.
+# This kind of trailer is more-frequent in open source funding projects.
 Sponsored-by: Name <name@example.com>
 Sponsored-by: Name <name@example.com>
 ```
