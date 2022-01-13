@@ -1,15 +1,17 @@
-#################################################
-# Start with a title that summarizes this commit.
-# Use imperative uppercase verb such as Add, Fix.
-# Do not end with a period because it's unneeded.
-# Use 50 chars maximum, which is this line width.
+##################################################
+# Write a title summarizing what this commit does.
+# Start with an uppercase imperative verb, such as
+# Add, Drop, Fix, Refactor, Bump; see ideas below.
+# Think of your title as akin to an email subject,
+# so you don't need to end with a sentence period.
+# Use 50 char maximum, which is this line's width.
 ##################################################
 Add your title here
 
 ########################################################################
 # Why is this change happening?
 # Describe the purpose, such as a goal, or use case, or user story, etc.
-# Use 72 chars maximum, which is this line width; multiple lines are OK.
+# Use 72 char maximum, which is this line's width; multiple lines are OK.
 ########################################################################
 Why:
 
