@@ -11,14 +11,14 @@ Add your title here
 ########################################################################
 # Why is this change happening?
 # Describe the purpose, such as a goal, or use case, or user story, etc.
-# Use 72 char maximum, which is this line's width; multiple lines are OK.
+# For every line, use 72 char maximum width, which is this line's width.
 ########################################################################
 Why:
 
 ########################################################################
 # How is this change happening?
 # Describe any relevant algorithms, protocols, implementation spec, etc.
-# Use 72 chars maximum, which is this line width; multiple lines are OK.
+# For every line, use 72 char maximum width, which is this line's width.
 ########################################################################
 How:
 
