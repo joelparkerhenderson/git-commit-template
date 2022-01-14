@@ -28,19 +28,20 @@ Add your title here
 ########################################################################
 # Why is this change happening?
 # Describe the purpose, such as a goal, or use case, or user story, etc.
-# Use 72 char maximum, which is this line's width; multiple lines are OK.
+# For every line, use 72 char maximum width, which is this line's width.
 ########################################################################
 Why:
 
 ########################################################################
 # How is this change happening?
 # Describe any relevant algorithms, protocols, implementation spec, etc.
-# Use 72 chars maximum, which is this line width; multiple lines are OK.
+# For every line, use 72 char maximum width, which is this line's width.
 ########################################################################
 How:
 
 ########################################################################
 # Add any tags you want, such as search text, hashtags, keywords, codes.
+# For every line, use 72 char maximum width, which is this line's width.
 ########################################################################
 Tags:
 
@@ -172,16 +173,16 @@ Tags:
 
 # For example, you can add any relevant links to a blog post, or graphic
 # design images, or industry publications, specifications, tickets, etc.
-See: Description <https://example.com/...>
-See: Description <https://example.com/...>
+#See: Description <https://example.com/...>
+#See: Description <https://example.com/...>
 
 # If the commit is written by multiple people, then use the git trailers
 # to thank each person as a co-author; various git tools can track this.
-Co-authored-by: Name <name@example.com>
-Co-authored-by: Name <name@example.com>
+#Co-authored-by: Name <name@example.com>
+#Co-authored-by: Name <name@example.com>
 
 # If the commit is sponsored by a person or company, then add them here.
 # This kind of trailer is more-frequent in open source funding projects.
-Sponsored-by: Name <name@example.com>
-Sponsored-by: Name <name@example.com>
+#Sponsored-by: Name <name@example.com>
+#Sponsored-by: Name <name@example.com>
 ```
