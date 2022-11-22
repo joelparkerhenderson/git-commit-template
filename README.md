@@ -147,6 +147,15 @@ Tags:
 # you can freely adjust the usage as you like.
 #
 #
+# ## Usage needs commit.cleanup strip ##
+#
+# This template intends for the commit to strip the comments.
+#
+# To strip the comments, your git `commit.cleanup` config must be `strip`.
+#
+# If you don't use `strip`, then these commit comments won't be deleted.
+#
+#
 # ## More ideas ##
 #
 # Some teams like to add a git commit message verification processes,
@@ -159,9 +168,9 @@ Tags:
 # ## Tracking ##
 #
 # * Package: git-commit-template
-# * Version: 7.1.0
-# * Updated: 2022-01-13T17:15:21Z
-# * Licence: GPL-2.0-only or contact us for custom license.
+# * Version: 7.2.0
+# * Updated: 2022-11-22T00:55:28Z
+# * Licence: GPL-2.0-or-later or contact us for custom license.
 # * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)
 #
 ########################################################################
